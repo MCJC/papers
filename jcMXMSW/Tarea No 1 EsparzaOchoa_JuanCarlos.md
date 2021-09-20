@@ -1,3 +1,10 @@
+give them the fromt seat, not to sleep in the car
+
+research fellows
+research specialization
+
+
+
 Fecha de inicio: 01 de septiembre
 
 Fecha y hora de término: 07 de septiembre a las 23:59 hrs  
@@ -240,27 +247,135 @@ Objetivo:  Reconocer y aclarar en forma articulada y concisa los términos bási
 
 Descripción: Elabore un Glosario con los siguientes términos:  
 
-objeto de evaluación,
-
-Program evaluation can:
-1. Understand, verify or increase the impact of products or services on customers or clients - These "outcomes" evaluations are increasingly required by nonprofit funders as verification that the nonprofits are indeed helping their constituents. Too often, service providers (for-profit or nonprofit) rely on their own instincts and passions to conclude what their customers or clients really need and whether the products or services are providing what is needed. Over time, these organizations find themselves in a lot of guessing about what would be a good product or service, and trial and error about how new products or services could be delivered.
-2. Improve delivery mechanisms to be more efficient and less costly - Over time, product or service delivery ends up to be an inefficient collection of activities that are less efficient and more costly than need be. Evaluations can identify program strengths and weaknesses to improve the program.
-3. Verify that you're doing what you think you're doing - Typically, plans about how to deliver services, end up changing substantially as those plans are put into place. Evaluations can verify if the program is really running as originally planned.
-
-Other Reasons:
-Program evaluation can:
-4. Facilitate management's really thinking about what their program is all about, including its goals, how it meets it goals and how it will know if it has met its goals or not.
-5. Produce data or verify results that can be used for public relations and promoting services in the community.
-6. Produce valid comparisons between programs to decide which should be retained, e.g., in the face of pending budget cuts.
-7. Fully examine and describe effective programs for duplication elsewhere.
+objeto de evaluación
+Entendemos por «objeto de evaluación» aquello que se evalúa o la unidad de análisis. Es decir, es el o los aspecto(s) respecto a lo(s) que se busca información y cuya definición está directamente condicionada por los objetivos y motivaciones de la evaluación. Se construye(n) en términos de variable(s) y al ser el punto de partida para decidir el resto de los elementos de la evaluación, es de crucial importancia su clara definición.
 
 
+categorías
+El concepto de «categorías» en evaluación es el menos unívoco 
 
-categorías,
+
+¿Cuáles son las categorías de evaluación?
+Las categorías de la evaluación definen los tipos de factores aplicables a una evaluación. ... Las evaluaciones tienen un conjunto de factores que describen estándares de rendimiento aceptable o intervalo de resultados para la evaluación.
+
+
+,
+
+
 criterios,
+
+
+Definición.de
+
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+DEFINICIÓN DE
+CRITERIOS DE EVALUACIÓN
+Para poder conocer el significado del término criterios de evaluación es necesario, en primer lugar, descubrir el origen etimológico de las dos palabras principales que le dan forma:
+
+
+-Criterios, en primer lugar, deriva del griego. En concreto, emana de “kriterion”, que puede traducirse como “norma que se establece para conocer la verdad” y que es fruto de la suma de dos componentes: el verbo “krinein”, que es sinónimo de “decidir”, y el sufijo “-io”, que se usa para indicar “resultado”.
+-Evaluación, en segundo lugar, tiene su origen en el latín. Significa “establecimiento del precio de algo” y es fruto de la suma de varios componentes: el prefijo “ex”, que significa “fuera”; el verbo “valere”, que puede traducirse como “ser fuerte”; y el sufijo “-cion”, que indica “acción y efecto”.
+
+Un criterio es una pauta, una norma o un juicio. Una evaluación, por su parte, es un examen o un proceso de calificación (que consiste en asignar un valor según las cualidades).
+
+
+
+
+Examen
+Los criterios de evaluación se aplican en el ámbito educativo.
+
+Qué son los criterios de evaluación
+La idea de criterios de evaluación se emplea en el ámbito de la educación para nombrar al marco de referencia tomado por los docentes a la hora de evaluar el rendimiento académico de sus alumnos. Estos criterios aluden a los conocimientos que los estudiantes deben adquirir y a lo que tienen que aprender a hacer con dichos conocimientos.
+
+Los criterios de evaluación, por lo tanto, se enfocan a la teoría y a la práctica. Cada alumno debe demostrar en las evaluaciones que ha comprendido los contenidos y que está en condiciones de aplicarlos. El dominio de estas dos dimensiones supone la adquisición de las aptitudes por parte del individuo.
+
+Prueba
+Dependiendo de los criterios de evaluación, un alumno aprueba o desaprueba un examen.
+
+Un ejemplo
+Tomemos el caso de la asignatura Lengua. Los criterios de evaluación que manejan los docentes de un determinado curso apuntan a que los alumnos demuestren su capacidad de comprender un texto, resumirlo y describirlo con sus propias palabras.
+
+
+De este modo, a la hora de tomar un examen, los profesores ofrecen una nota periodística de cincuenta líneas a los niños y les piden que la resuman en diez líneas. Además les indican que deben describir el mismo acontecimiento narrado por el periodista, pero con otras palabras. Una vez que los estudiantes entregan los exámenes, los docentes aplicarán los criterios de evaluación para determinar, de acuerdo a lo evidenciado, si cada chico realizó los méritos necesarios para aprobar o no.
+
+Cómo se determinan los criterios de evaluación
+Además de todo lo expuesto, no podemos pasar por alto otra serie de aspectos relevantes sobre los criterios de evaluación:
+
+-A la hora de fijarlos hay que tener en consideración las competencias que se van a desarrollar.
+-Es fundamental que giren en torno a los aprendizajes más relevantes, los que se considera que son imprescindibles para que el alumno pueda avanzar en la materia sobre la que versen.
+-Asimismo es necesario que se concentren en dimensiones, que son los aspectos que dan forma al objeto de evaluación, las subdimensiones, que vienen a ser distintas partes de las dimensiones, y los atributos. Estos son los ítems que dan forma a las distintas subdimensiones.
+
+DEFINICIÓN SIGUIENTE →
+REFERENCIAS
+Autores: Julián Pérez Porto y María Merino. Publicado: 2017. Actualizado: 2021.
+Definicion.de: Definición de criterios de evaluación (https://definicion.de/criterios-de-evaluacion/)
+DEFINICIONES RELACIONADAS
+Definición de portafolio de evidenciasDefinición de liderazgoDefinición de riesgo ambientalDefinición de auditoríaDefinición de equitación
+BUSCAR OTRA DEFINICIÓN
+
+TEMAS
+Qué son los criterios de evaluación
+Un ejemplo
+Cómo se determinan los criterios de evaluación
+ÚLTIMAS DEFINICIONES
+DEFINICIÓN DE
+baldosa
+DEFINICIÓN DE
+balastro
+DEFINICIÓN DE
+bacalao
+DEFINICIÓN DE
+eliminar
+DEFINICIÓN DE
+espectrofotometría
+
+Copyright © 2008-2021 - Definicion.de
+Queda prohibida la reproducción total o parcial de los contenidos de esta web
+Privacidad - ContactoDefinición.de Copyright © 2008-2021 WordPress
+
+
+
+
+
+
+
 indicadores,
+
+
 parámetros,
+
+
+
 valoración de la información,
+
+
+
 fuentes de información
 
 
