@@ -182,6 +182,8 @@ indicadores,
 
 parámetros,
 
+Entendemos por parámetros las
+
 Un valor que se mantuvo constante durante un experimento, ecuación, cálculo o similar, pero varió con respecto a otras versiones del experimento, ecuación, cálculo, etc.
 (ciencias) una variable que describe algún sistema (material, objeto, evento, etc.) o algún aspecto del mismo
 (programación) Una variable de entrada de una definición de procedimiento, que obtiene un valor real (argumento) en el momento de la ejecución (parámetro formal).
@@ -196,25 +198,39 @@ El parámetro del eje principal de una sección cónica se denomina latus recto.
 
 valoración de la información,
 
-Valor comes from the Latin valorem for “strength, moral worth,” with the sense of “courage” added later. Valor is often displayed in the face of something designed to crush it, like a battle in a war, and it is often rewarded with the conferring of a medal.
+entendemos por valoración de la información (tal vez mejor dicho como evaluación de los datos) el proceso que reconocimiento de la fuerza, autoridad, o confiabilidad de los datos disponibles. Es importante mencionar que no se trata de que los datos estén libres de error sino que estén libres de sesgo y permitan una ponderación confiable y adecuada (válida) aún con el error estándar que se puede esperar en cualquier situación de muestreo. El proceso tiene como base la adecuada capacitación del evaluador para identificar el valor epistémico, funcional, condicional, etc., de los datos para así priorizar cuales deben ser ulilizados para procesarlos propiamente como información y operacionalizarlos en términos de indicadores.
 
-valor - Dictionary Definition : Vocabulary.com
-
-
-La palabra "valoración" está formada con raíces latinas y significa "acción y efecto de atribuir un precio o mérito". Sus componentes léxicos son: valere (permanecer en plenitud de fuerza, salud y vigor), -or (sufijo que indica efecto o resultado), más el sufijo -ción (acción y efecto).
-
-Radicación de la palabra VALORACIÓN - Diccionario ...http://etimologias.dechile.net › valoracio
-About featured snippets
-•
-Feedback
-
-Significado y definición de valoración, etimología de valoraciónhttps://definiciona.com › valoracion· Translate this page
-Esta palabra esta formado del verbo activo transitivo «valorar» y del sufijo «ción» que indica efecto, hecho o acción de. Download Nulled WordPress ...
 
 
 
 
 fuentes de información
+
+
+American Evaluation Association Community. (s/f). Library—American Evaluation Association [Organization website]. American Evaluation Association. Recuperado el 13 de septiembre de 2021, de https://comm.eval.org/communities/community-home/librarydocuments?LibraryKey=1eff4fd7-afa0-42e1-b275-f65881b7489b
+Asian Development Bank (ADB). (2013). Guidelines for Preparing Performance Evaluation Reports for Public Sector Operations (2a ed.). Asian Development Bank (ADB). https://www.adb.org/sites/default/files/institutional-document/32516/guidelines-pper-pso.pdf
+Bernstein, D. J. (2020, octubre 30). Evaluating Inclusive Program Practice [PDF]. 2020 American Evaluation Association Conference, Gaithersburg, Maryland. https://comm.eval.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=71210f21-3b91-760b-00f7-16b4d56bda47&forceDialog=0
+Biblioteca Daniel Cosío Villegas. (s/f). CURSO DE INVESTIGACION DOCUMENTAL [Library website]. Biblioteca Daniel Cosío Villegas de El Colegio de México. Recuperado el 13 de septiembre de 2021, de http://biblio.colmex.mx/curso_investigacion_documental/curso_investigacion_documental_principal.htm
+Boluntariotza eta Gizarte-Partaidetza (Bolunta). (s/f). Manual gestión completo. Boluntariotza eta Gizarte-Partaidetza (Bolunta). Recuperado el 13 de septiembre de 2021, de https://www.printfriendly.com/p/g/YpFDMS
+Cabrera, M. (2006). Introducción a las fuentes de información. https://www.researchgate.net/. https://www.researchgate.net/publication/50839717_Introduccion_a_las_fuentes_de_informacion
+Criterios, Indicadores y Parametros. (s/f). Prezi.Com. Recuperado el 13 de septiembre de 2021, de https://prezi.com/fceuzvz0xera/criterios-indicadores-y-parametros/
+Equipo editorial, Etecé. (2021). Fuentes de Información—Concepto, tipos, ejemplos, confiabilidad. En Enciclopedia Concepto. Editorial Etecé. https://concepto.de/fuentes-de-informacion/
+Fernández, J. T. (2004). EVALUACIÓN DE PROGRAMAS. çexport/sites/default/galerias/galeriaDescargas/diputacion/dipujaen/formacion/centro-documental/Evaluacixn_programas_de_formacixn.pdf
+García Cabrero, B., Cisneros Cohernour, E., & Díaz Camacho, J. E. (2011, octubre). Entorno Virtual para el Desarrollo de Competencias en Evaluación [Research website]. Entorno Virtual  para el Desarrollo de Competencias en Evaluación (EV-DCE). http://entornovirtualparaeldesarrollode.weebly.com/
+González Pérez, M. (2001). La evaluación del aprendizaje: Tendencias y reflexión crítica. Revista Cubana Educación Media Superior, 15(1), 85–96.
+LOS CRITERIOS DE EVALUACIÓN Y LOS ESTÁNDARES DE APRENDIZAJE EVALUABLES DEL DEPARTAMENTO DE TECNOLOGÍA (p. 7). (s/f).
+Organisation for Economic Co-operation and Development (OECD). (2002). Glossary of Key Terms in Evaluation and Results Based Management (in English, French and Spanish). OECD Publishing. https://www.oecd-ilibrary.org/content/publication/9789264034921-en-fr
+Ortegón, E., Pacheco, F., & Prieto, A. (2015). Metodología del marco lógico para la planificación, el seguimiento y la evaluación de proyectos y programas. Naciones Unidas / Comisión Económica para América Latina (CEPAL).
+Wiktionary. (2017a). Indicador. En Wiktionary. Wiktionary. https://es.wiktionary.org/w/index.php?title=indicador&oldid=4507707
+Wiktionary. (2017b). Parámetro. En Wiktionary. Wiktionary. https://es.wiktionary.org/w/index.php?title=par%C3%A1metro&oldid=4567851
+Wiktionary. (2017c). Valorar. En Wiktionary. Wiktionary. https://es.wiktionary.org/w/index.php?title=valorar&oldid=4671712
+Wiktionary. (2017d). Categoría. En Wiktionary. Wiktionary. https://es.wiktionary.org/w/index.php?title=category&oldid=4702441
+Wiktionary. (2018). Criterio. En Wiktionary. Wiktionary. https://es.wiktionary.org/w/index.php?title=criterio&oldid=4746213
+Wiktionary. (2020). Fuente. En Wiktionary. Wiktionary. https://es.wiktionary.org/w/index.php?title=fuente&oldid=4951882
+Wiktionary. (2021). Objeto. En Wiktionary. Wiktionary. https://en.wiktionary.org/w/index.php?title=objeto&oldid=62073812
+
+
+
 
 
 , use un documento o fuente distinta de la RAE, revise la rúbrica, es muy importante que presente la referencia de cada concepto. Comparta su archivo PDF, bajo la denominación Tarea No 4 APELLIDO_NOMBRE

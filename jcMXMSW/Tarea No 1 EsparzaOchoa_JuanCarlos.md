@@ -1,3 +1,30 @@
+Eval inteegrada al alógica de proyetos es la que atiende el carácter integral del proyecto, de modo que en el cntexto de la inclusión del proyecto todo, reconoce el dinamismo del proyecto más allá de sus partes.  los diferentes factores que tienen que ver con el problema, si se previeron acciones de promoción, prevención y asistencia
+El carácter participativo: se debe revisar si el proyecto presentado fue formulado con la participación de los actores locales que sean relevantes en función de la temática
+El carácter asociativo: implica la presencia de intenciones o compromisos interinstitucionales previos a la ejecución
+
+ADECUACIÓN DE LA ESTRATEGIA PREVISTA PARA LA SUSTENTABILIDAD
+Todo proyecto social independientemente de la temática debería procurar además de los resultados positivos, también se logre la sustentabilidad de modo que tenga continuidad los procesos iniciados.
+
+LA FORTALEZA DEL SUSTENTO INSTITUCIONAL
+EN FUNCIÓN DE SU EXPERIMdeENTACIÓN IDÓNEA
+Se pondrá particular énfasis en esta cuestión en aquellos casos en que no haya existido una etapa de precalificación o una presentación
+
+EVALUACION INTEGRADA A LA LOGICA DE PROYECTOS
+
+RETOMANDO ELEMENTOS IMPORTANTES PARA LA EVALUACIÓN- Sergio Martinic Valencia
+
+Los evaluadores son un actor más del proceso social e interactivo de la construcción de decisiones para actuar en el campo social. La evaluación contribuye a la formación del juicio, de los criterios o de la argumentación que sustenta una decisión.
+
+La evaluación es un juicio o apreciación que emite una persona o un equipo sobre las actividades y resultados de un proyecto.
+
+La evaluación contribuye a:
+
+A la toma de decisiones.
+Al aprendizaje y a los conocimientos que los propios ejecutores tienen del problema que abordan.
+
+
+
+
 give them the fromt seat, not to sleep in the car
 
 research fellows
@@ -252,7 +279,7 @@ Entendemos por «objeto de evaluación» aquello que se evalúa o la unidad de a
 
 
 categorías
-El concepto de «categorías» en evaluación es el menos unívoco 
+El concepto de «categorías» en evaluación es el menos unívoco
 
 
 ¿Cuáles son las categorías de evaluación?
