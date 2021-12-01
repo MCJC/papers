@@ -1,0 +1,77 @@
+﻿#sidebar {
+  width: inherit;
+  min-width: 300px;
+  max-width: 300px;
+  background-color:#f5f5f5;
+  float: left;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.row-offcanvas {
+    position: fixed;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    z-index: 999;
+    top: 0;
+}
+    
+.row-offcanvas-left
+{
+    left: -300px;
+}
+
+.row-offcanvas-left.active {
+    left: 0;
+}
+
+.sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+}
+
+#float_sidebar {
+  width: inherit;
+  min-width: 300px;
+  max-width: 300px;
+  background-color:#f5f5f5;
+  float: right;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.float_row-offcanvas {
+    position: fixed;
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+    width:300px;
+    z-index: 998;
+}
+    
+.float_row-offcanvas-left
+{
+    top: -300px;
+    right: 10px;
+}
+
+.float_row-offcanvas-left.active {
+    top: 10px;
+    right: 10px;
+}
+
+.float_sidebar-offcanvas {
+    position: absolute;
+    right: 10px;
+}
+
+#divNotify {
+    position: fixed;
+    max-width: calc(100% - 210px);
+    min-width: calc(100% - 210px);
+    z-index: 1000;
+}

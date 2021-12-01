@@ -1,0 +1,291 @@
+﻿* {
+    font-family: 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, Sans-Serif !important;
+    font-size: 12px;
+  
+}
+
+/*body {
+    margin: 0px;
+    padding: 0px;
+    background: #C0C0C0 !important;
+}*/
+
+.img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.panel {
+    -moz-border-radius: 5px; /* for Firefox */
+    -webkit-border-radius: 5px; /* for Webkit-Browsers */
+    border-radius: 5px; /* regular */
+    box-shadow: 0 1px 3px rgb(15,15,15);
+    box-shadow: 0 1px 3px rgba(15,15,15,0.50);
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,0.5);
+}
+
+.Banner {
+    display: block;
+    margin: 0 auto;
+}
+
+#form1
+{
+    overflow:hidden;
+    background-color: white;
+    width:1215px;
+    margin:0 auto !important;
+
+}
+
+.Contenedor {
+        
+    padding: 10px;
+    font-size: small;
+    text-decoration: none;
+    /*color: #FFFFFF;*/
+    border: thin double #FFFFFF;
+    background-attachment: fixed;
+    padding-top: 0;
+}
+
+input {
+    outline: none;
+}
+
+.copyright, .copyright a {
+    font-size: 9pt;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+/* DX FIX */
+.dxbButton {
+    background-image: none !important;
+}
+
+.NoStyle {
+    background: none !important;
+    border: 0;
+    color: black;
+    padding: 0;
+    height: auto;
+}
+
+a[class*="ASPxMenuTipoUsuarios"]:hover {
+    color: Blue;
+}
+
+input.dxeEditArea, input.dxeEditAreaSys {
+}
+
+/*Arregla botones de accion gv*/
+table[id*="TablaBotones"] div[class*="dxbButton dxbButtonSys"] {
+    width: auto !important;
+    padding: 0px !important;
+}
+/*Arregla Paginador gv*/
+div[id$="tcPagerBarT"] .dxbButtonSys {
+    border-color: transparent !important;
+    height: 28px !important;
+    cursor: pointer !important;
+    padding: 0 4px !important;
+    width: 28px !important;
+    background: transparent !important;
+}
+
+    div[id$="tcPagerBarT"] .dxbButtonSys div[class*="dxb"] {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+/*Arregla Imagenes*/
+div[id$="tcPagerBarT"] div div img {
+    width: auto !important;
+    height: auto !important;
+}
+/*End Fix*/
+
+.container {
+    width: 1000px;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 0 20px;
+}
+
+    .col:first-child {
+        margin-left: 0;
+    }
+
+    .col:last-child {
+        margin-right: 0;
+    }
+
+.row {
+    clear: left;
+    margin: 8px 0;
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+}
+
+
+
+
+    .row:first-child {
+        margin-top: 0;
+    }
+
+    .row:last-child {
+        margin-bottom: 0;
+    }
+
+.element {
+    margin-right: 8px;
+}
+
+    .element:first-child {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .element:last-child {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .element [class*="dxbButton"] {
+        margin-right: 8px;
+    }
+
+.flow {
+    margin: 0;
+    float: left;
+    margin-right: 8px;
+}
+
+    .flow input {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+.ss {
+    width: 12.5px !important;
+}
+
+.s {
+    width: 25px !important;
+}
+
+.d {
+    width: 50px !important;
+}
+
+.xd {
+    width: 75px !important;
+}
+
+.sl {
+    width: 100px !important;
+}
+
+.l {
+    width: 150px !important;
+}
+
+.luGrupo {
+    width: 150px !important;
+}
+
+.lu {
+    width: 250px !important;
+}
+
+
+.xl {
+    width: 200px !important;
+}
+
+.xsl {
+    width: 300px !important;
+}
+
+.xxl {
+    width: 500px !important;
+}
+
+.xxxl {
+    width: 750px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.centrado {
+    margin: 0 auto !important;
+}
+
+.izq {
+    float: left !important;
+}
+
+.der {
+    float: right !important;
+}
+
+.textoDerecha {
+    text-align: right;
+}
+
+.mensajeFlotante {
+    min-width: 300px;
+}
+
+    .mensajeFlotante .contenido {
+        min-height: 50px;
+        margin: 10px;
+        display: block;
+        float: left;
+    }
+
+    .mensajeFlotante img {
+        vertical-align: middle;
+    }
+
+div [id^="cpAsignatura"] {
+    margin: 8px !important;
+}
+
+.Deshabilitado{
+    opacity: 0.5 !important;
+    filter: alpha(opacity=50) !important; /*< IE8*/ 
+}
+
+/*ReporteExito*/
+
+.Reporte {
+
+}
+
+.Reporte.PopUp div.dxpc-contentWrapper{
+    width: auto !important;
+    display: block !important;
+    height: auto !important;
+}
+
+
+
+.Reporte.PopUp.Table{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+.Reporte.PopUp.Table.Listado{
+    height: 100% !important;
+
+}

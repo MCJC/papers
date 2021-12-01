@@ -1,0 +1,378 @@
+﻿/* TABLA DE CONTENIDOS                          */
+/* 1.- Estilos generales del documento          */
+/* 2.- Cabecera                                 */
+/*      2.1- Media Queries de la Cabecera       */
+/* 3.- Pie de Página                            */
+/* 4.- Apariencia de los Controles              */
+
+
+/** Estilos generales del documento **/
+
+* {margin:0;padding:0; font-family: 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, Sans-Serif; font-size: 12px; line-height:1.4em; }
+
+html{
+    overflow-x: hidden;
+}
+
+/*html,body { 
+    height:100%;            
+}*/
+
+body {
+    width:90% !important;
+    margin:auto auto 10px auto !important;
+    background: #C0C0C0 !important;
+}
+
+#form1 {
+    background-color: white;
+    padding: 1em;
+    margin: auto;
+}
+
+.Contenedor { 
+    padding: 10px;
+    font-size: small;
+    text-decoration: none;
+    border: thin double #FFFFFF;
+    background-attachment: fixed;
+    padding-top: 0;
+}
+
+
+/**********************************************************************************************************************/
+/*********************************************** 2.- CABECERA *********************************************************/
+/**********************************************************************************************************************/
+
+
+.PageHeader {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    /*border: solid 2px;*/ 
+}
+
+.PageHeader .Banner {
+    -webkit-box-ordinal-group: 1;  
+    -moz-box-ordinal-group: 1;     
+    -ms-flex-order: 1;     
+    -webkit-order: 1;  
+    order: 1;
+  
+    
+    /*border: dashed 1px;*/ 
+    /*-webkit-flex: 0.6;*/ /*** BUGGY IN IE 11 ***/
+    /*-ms-flex-grow: 0.6;*/  
+}
+
+.PageHeader .SeparadorUno{
+    -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+    -ms-flex-order: 2;              /* TWEENER - IE 10 */
+    -webkit-order: 2;               /* NEW - Chrome */
+    order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    margin: 0 0 0 4px;
+}
+
+.PageHeader .SeparadorUno, .PageHeader .SeparadorDos
+{
+     border-right-style: solid; 
+    border-right-width: 1px; 
+    border-right-color: #CCCCCC;
+    width: 8px;
+    height: 81px;
+  
+    /*border: dashed 1px;*/ 
+}
+
+
+.PageHeader .ControlPanel {
+    -webkit-box-ordinal-group: 3;   /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-ordinal-group: 3;      /* OLD - Firefox 19- */
+    -ms-flex-order: 3;              /* TWEENER - IE 10 */
+    -webkit-order: 3;               /* NEW - Chrome */
+    order: 3;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    width: 450px;
+    margin: 0px auto 2px 2px;
+    
+    
+    /*border: dashed 1px;*/ 
+}
+
+.PageHeader .ControlPanel .NombrePlantel {
+    font-weight: bold;
+    margin: 8px 56px 8px 7px;
+}
+
+.PageHeader .ControlPanel .NombreUsuarioYBotones
+{
+    margin: 8px 0 8px 7px;
+}
+
+
+.PageHeader .ControlPanel .MenuNav {
+    margin: 8px 0 0px 0;
+    width: 100px;
+    
+    /*border: dashed 1px;*/ 
+}
+
+.PageHeader .OptionButtons {
+    display:inherit;
+    -webkit-box-ordinal-group: 4;  
+    -moz-box-ordinal-group: 4;     
+    -ms-flex-order: 4;     
+    -webkit-order: 4;  
+    order: 4;
+
+    -webkit-box-flex: 1;      
+    -moz-box-flex: 1;                      
+    -webkit-flex: 1;       /*** BUGGY IN IE 11 ***/               
+    flex: 1;
+    
+    min-width:141px;
+    -ms-flex-grow: 1;              
+    margin: auto;
+
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    /*justify-content: center;*/  
+    justify-content:flex-end;
+    align-items: center;
+    
+    /*border: dashed 1px;*/ 
+
+}
+
+.PageHeader .OptionButtons .BotonRegresar{
+    height: 55px;
+}
+
+.PageHeader .OptionButtons .BotonFavoritos{
+    height: 55px;
+}
+
+.PageHeader .OptionButtons .BotonNotificaciones{
+    width: 0px;
+    height: 55px;
+    margin: 0px;
+    display:none;
+}
+.PageHeader .OptionButtons .BotonConfiguracion{
+   
+    height: 55px;
+    margin: 0 16px 0 0;
+}
+
+.PageHeader .OptionButtons .BotonSalir{
+   
+    height: 55px;
+    margin: 0 16px 0 0;
+}
+/***** >>> 2.1- Media Queries de la Cabecera <<<<<*****/
+
+@media only screen and (max-width: 1180px) {
+  .PageHeader .Banner {
+    display: inherit;
+    width:auto;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+    justify-content: center;
+  
+  }
+
+    .PageHeader .ControlPanel  {
+        width: 400px;
+        margin: 0;
+    }
+
+  .PageHeader .OptionButtons{
+      justify-content: center;
+  }
+  .PageHeader .SeparadorUno, .PageHeader .SeparadorDos{
+      display:none;
+  }
+
+  .PageHeader .OptionButtons .BotonNotificaciones{
+   
+    height: 55px;
+    margin: 0;
+}
+.PageHeader .OptionButtons .BotonConfiguracion{
+   
+    height: 55px;
+    margin: 0;
+}
+
+.PageHeader .OptionButtons .BotonSalir{
+   
+    height: 55px;
+    margin: 0;
+}
+}
+
+@media only screen and (max-width: 980px) {
+    .PageHeader .ControlPanel  {
+        width: 350px;
+        margin: 0;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 750px)
+{
+    #form1 {
+        min-width:550px;
+    }
+
+   .PageHeader {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+    justify-content:center;
+    height:250px;
+  }
+
+    .PageHeader .ControlPanel .MenuNav {
+
+        width: auto;
+    }
+
+      .PageHeader .ControlPanel {
+    display:inherit;
+    flex-direction: column;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+    justify-content: center;
+
+    margin: 0;
+   }
+
+
+  .PageHeader .ControlPanel .NombreUsuario {
+    margin: 10px;
+   }
+
+  .PageHeader .OptionButtons {
+      justify-content: center;
+      width:100%;
+      margin: 0 auto;
+      align-items: stretch;
+  }
+}
+
+/**********************************************************************************************************************/
+/*********************************************** 3.- PIE DE PÁGINA ****************************************************/
+/**********************************************************************************************************************/
+ 
+.copyright {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+/**********************************************************************************************************************/
+/************************************ 4.- APARIENCIA DE LOS CONTROLES *************************************************/
+/**********************************************************************************************************************/
+
+.HubBody .TituloModulo:link { color:Black !important; }
+.HubBody .TituloModulo:visited { color: #660066 !important; }
+.HubBody .TituloModulo:hover { text-decoration: none !important; color: #0000FF !important; }
+.HubBody .TituloModulo:active { color: red; }
+
+.panelConfirmacionSalida {
+    -moz-border-radius: 5px; /* for Firefox */
+    -webkit-border-radius: 5px; /* for Webkit-Browsers */
+    border-radius: 5px; /* regular */
+    box-shadow: 0 1px 3px rgb(15,15,15);
+    box-shadow: 0 1px 3px rgba(15,15,15,0.50);
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,0.5);
+}
+
+
+/* DX FIX */
+.dxbButton {
+    background-image: none !important;
+}
+
+.NoStyle {
+    background: none !important;
+    border: 0;
+    color: black;
+    padding: 0;
+    height: auto;
+}
+
+a[class*="ASPxMenuTipoUsuarios"]:hover {
+    color: Blue;
+}
+
+a[class*="ASPxMenuTipoUsuarios"]{
+    text-decoration: none !important;
+    color:blue;
+}
+
+input.dxeEditArea, input.dxeEditAreaSys {
+}
+
+/*Arregla botones de accion gv*/
+table[id*="TablaBotones"] div[class*="dxbButton dxbButtonSys"] {
+    width: auto !important;
+    padding: 0px !important;
+}
+/*Arregla Paginador gv*/
+div[id$="tcPagerBarT"] .dxbButtonSys {
+    border-color: transparent !important;
+    height: 28px !important;
+    cursor: pointer !important;
+    padding: 0 4px !important;
+    width: 28px !important;
+    background: transparent !important;
+}
+
+    div[id$="tcPagerBarT"] .dxbButtonSys div[class*="dxb"] {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+/*Arregla Imagenes*/
+div[id$="tcPagerBarT"] div div img {
+    width: auto !important;
+    height: auto !important;
+}
+/*End Fix*/
+
+/*ReporteExito*/
+
+.Reporte {
+
+}
+
+.Reporte.PopUp div.dxpc-contentWrapper{
+    width: auto !important;
+    display: block !important;
+    height: auto !important;
+}
+
+.Reporte.PopUp.Table{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+.Reporte.PopUp.Table.Listado{
+    height: 100% !important;
+
+}
+

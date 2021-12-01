@@ -1,0 +1,69 @@
+﻿.pup
+{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.pupHead
+{
+    font-size: 18px;
+    color: rgb(255, 85, 85);
+    font-weight: bold;
+    margin: 10px;
+}
+.pupHead img
+{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+
+.pupContent div
+{
+    font-size: 14px;
+    margin: 10px;
+}
+.pupContent label
+{
+    color: rgb(255, 85, 85);
+    font-weight: bold;
+}
+
+.pupButtons
+{
+    margin:10px;
+}
+
+.pupButtons .Button
+{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pupButtons .Button.Yes
+{
+    margin-left: 10px;
+    background-color: rgb(50, 100, 255);
+}
+.pupButtons .Button.Yes:hover
+{
+    background-color: rgb(50, 50, 255);
+}
+
+.pupButtons .Button.No
+{
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(255, 100, 100);
+}
+
+.pupButtons .Button.No:hover
+{
+    background-color: rgb(255, 50, 50);
+}
