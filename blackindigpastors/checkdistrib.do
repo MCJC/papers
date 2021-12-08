@@ -2,7 +2,7 @@
 *******************************************************************************************************************************************************************************
 clear
 *******************************************************************************************************************************************************************************
- use "National Congregations Study, Cumulative Dataset (1998, 2006-2007, 2012, and 2018-2019).DTA"
+ use "National Congregations Study, Cumulative Dataset (1998, 2006-2007, 2012, and 2018-2019).DTA", clear
 * over 50% blacks
 gen overhalfb  = blackpct >= 50
 
@@ -17,9 +17,9 @@ tab DUP_ID_06 overhalfb
 tab DUP_ID_18 overhalfb
 
 
- , m
-tab DUP_ID_18           , m
-tab overhalfb DUP_ID_18, m
+
+tab DUP_18           , m
+tab DUP_18 overhalfb , m
 
 
 
@@ -31,23 +31,107 @@ tab blackpct
 tab BLCK80_4
 
 
-tab DUP_ID_06           , m
-tab DUP_ID_06 overhalfb , m
-tab DUP_ID_18           , m
-tab overhalfb DUP_ID_18, m
+tab DUP_06 overhalfb , m
+tab DUP_18 overhalfb , m
 
 
-PANEL_06
-DUP_ID_06
-PANEL_18
-DUP_ID_18
+// PANEL_06
+// DUP_ID_06
+// PANEL_18
+// DUP_ID_18
+
+gen     btime = .
+replace btime = 1 if overhalfb == 0 & year == 1998 & btime == .
+replace btime = 2 if overhalfb == 0 & year == 2006 & btime == .
+replace btime = 3 if overhalfb == 0 & year == 2012 & btime == .
+replace btime = 4 if overhalfb == 0 & year == 2018 & btime == .
+replace btime = 5 if overhalfb == 1 & year == 1998 & btime == .
+replace btime = 6 if overhalfb == 1 & year == 2006 & btime == .
+replace btime = 7 if overhalfb == 1 & year == 2012 & btime == .
+replace btime = 8 if overhalfb == 1 & year == 2018 & btime == .
+
+lab var btime        "over time"
+lab def btime         ///
+1 "<50B 1998"         ///
+2 "<50B 2006"         ///
+3 "<50B 2012"         ///
+4 "<50B 2018"         ///
+5 "B1998"             ///
+6 "B2006"             ///
+7 "B2012"             ///
+8 "B2018"              //
+lab val btime btime
+tab     btime, m
 
 
-tab millness  overhalfb, col
 
-tab hlthmentl
 
-workprob
+tab millness          btime                   , col chi2
+tab millness          btime  if overhalfb == 1, col chi2
+tab millness                    overhalfb     , col chi2
+
+tab hlthmentl         btime                   , col chi2
+tab hlthmentl         btime  if overhalfb == 1, col chi2
+tab hlthmentl                   overhalfb     , col chi2
+
+tab workprob          btime                   , col chi2
+tab workprob          btime  if overhalfb == 1, col chi2
+tab workprob                    overhalfb     , col chi2
+
+tab illness           btime                   , col chi2
+tab illness           btime  if overhalfb == 1, col chi2
+tab illness                     overhalfb     , col chi2
+
+tab GSUBSTANCE98      btime                   , col chi2
+tab GSUBSTANCE98      btime  if overhalfb == 1, col chi2
+tab GSUBSTANCE98                overhalfb     , col chi2
+
+tab GSUBSTANCE06      btime                   , col chi2
+tab GSUBSTANCE06      btime  if overhalfb == 1, col chi2
+tab GSUBSTANCE06                overhalfb     , col chi2
+
+tab GSUPPORT98        btime                   , col chi2
+tab GSUPPORT98        btime  if overhalfb == 1, col chi2
+tab GSUPPORT98                  overhalfb     , col chi2
+
+tab GSUPPORT06        btime                   , col chi2
+tab GSUPPORT06        btime  if overhalfb == 1, col chi2
+tab GSUPPORT06                  overhalfb     , col chi2
+
+tab GBEREAVE98        btime                   , col chi2
+tab GBEREAVE98        btime  if overhalfb == 1, col chi2
+tab GBEREAVE98                  overhalfb     , col chi2
+
+tab GBEREAVE06       btime                   , col chi2
+tab GBEREAVE06       btime  if overhalfb == 1, col chi2
+tab GBEREAVE06                 overhalfb     , col chi2
+
+tab PABUSED06        btime                   , col chi2
+tab PABUSED06        btime  if overhalfb == 1, col chi2
+tab PABUSED06                  overhalfb     , col chi2
+
+tab PDISASTER06      btime                   , col chi2
+tab PDISASTER06      btime  if overhalfb == 1, col chi2
+tab PDISASTER06                overhalfb     , col chi2
+
+tab PELDERLY06       btime                   , col chi2
+tab PELDERLY06       btime  if overhalfb == 1, col chi2
+tab PELDERLY06                 overhalfb     , col chi2
+
+tab PETHNIC06        btime                   , col chi2
+tab PETHNIC06        btime  if overhalfb == 1, col chi2
+tab PETHNIC06                  overhalfb     , col chi2
+
+tab PSUBSTANC06      btime                   , col chi2
+tab PSUBSTANC06      btime  if overhalfb == 1, col chi2
+tab PSUBSTANC06                overhalfb     , col chi2
+
+tab PVDP06           btime                   , col chi2
+tab PVDP06           btime  if overhalfb == 1, col chi2
+tab PVDP06                     overhalfb     , col chi2
+
+
+
 illness
 GSUBSTANCE98
 GSUBSTANCE06
@@ -58,7 +142,72 @@ GBEREAVE06
 
 
 
+human service
 
+PABUSED06       byte    %8.0g      PABUSED06
+                                            * What are the three most important? Services for victims of rape or domestic viol
+PDISASTER06     byte    %8.0g      PDISASTER06
+                                              What are the three most important? Disaster relief
+PELDERLY06      byte    %8.0g      PELDERLY06
+                                              What are the three most important? Specifically for senior citizens
+PETHNIC06       byte    %8.0g      PETHNIC06
+                                            * What are the three most important? Programs focused on issues of race or ethnici
+PSUBSTANC06     byte    %8.0g      PSUBSTANC06
+                                              What are the three most important? Substance abuse programs
+PVDP06          byte    %8.0g      PVDP06     What are the three most important? St. Vincent de Paul
+
+
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5794513/
+
+
+prosperg	Some religious groups teach that God gives financial wealth and good physical health to those with enough faith. Does your congregation teach this? Remarks: This item was asked only of Christian congregations.
+illness	Within the past 12 months, have there been any groups or meetings or classes or events specifically focused on the following purposes or activities? Support for people with terminal illness or chronic health problems?
+povhlth	What specific economic or poverty-related issue did that activity address? Issue addressing poverty as it relates to health; Remarks: This item was only asked if LMPOV = 1. [ARDA Note: Please see POVHLTH in the survey instrument for full remarks.]
+lmhlth	What other issue or policy? Issues or policies mentioning health related issues; Remarks: This item was only asked if LMOTHR = 1. [ARDA Note: Please see LMHLTH in the survey instrument for full remarks.]
+hlthprog	Within the last 12 months, has your congregation had any organized effort to provide your members with health-focused programs such as blood pressure checks, health education classes, or disease prevention information?
+hlthbp	Within the past 12 months, have any of these health-focused programs involved: Blood pressure checks? Remarks: This item was only asked if HLTHPROG = 1.
+hlthcan	Within the past 12 months, have any of these health-focused programs involved: Screen for any type of cancer? Remarks: This item was only asked if HLTHPROG = 1.
+hlthflu	Within the past 12 months, have any of these health-focused programs involved: Offering flu shots? Remarks: This item was only asked if HLTHPROG = 1.
+hlthdb	Within the past 12 months, have any of these health-focused programs involved: Testing for diabetes or checking blood sugar levels? Remarks: This item was only asked if HLTHPROG = 1.
+hlthaid	Within the past 12 months, have any of these health-focused programs involved: Testing for HIV or AIDS? Remarks: This item was only asked if HLTHPROG = 1.
+hlthmed	Within the past 12 months, have any of these health-focused programs involved: Helping people get health insurance or Medicaid? Remarks: This item was only asked if HLTHPROG = 1.
+hlthnuts	Within the past 12 months, have any of these health-focused programs involved: Educating people about nutrition or healthy eating habits? Remarks: This item was only asked if HLTHPROG = 1.
+hlthoth	Within the past 12 months, have any of these health-focused programs involved: Any other health focused program or activity besides the ones already mentioned? Remarks: This item was only asked if HLTHPROG = 1.
+hlthcardo	What are they? Programs addressing cardiovascular health issues; Remarks: This item was only asked if HLTHOTH = 1. [ARDA Note: Please see HLTHCARDO in the survey instrument for full remarks.]
+hlthedu	What are they? Programs designed to educate people about health-related issues; Remarks: This item was only asked if HLTHOTH = 1. [ARDA Note: Please see HLTHEDU in the survey instrument for full remarks.]
+hlthfeet	What are they? Programs addressing health issues related to eyesight, hearing, feet, or dental hygiene; Remarks: This item was only asked if HLTHOTH = 1. [ARDA Note: Please see HLTHFEET in the survey instrument for full remarks.]
+hlthmentl	What are they? Programs addressing mental health conditions; Remarks: This item was only asked if HLTHOTH = 1. [ARDA Note: Please see HLTHMENTL in the survey instrument for full remarks.]
+hltheduc	Does your congregation have any organized effort, designated person, or committee whose purpose is to provide your members with health-focused programs such as blood pressure checks, health education classes, or disease prevention information?
+SHEALTH98	[1998 and 2006-07 wording] What projects or programs have you sponsored or participated in? Programs targeting physical health needs
+SHEALTH06	[1998 and 2006-07 wording] What projects or programs have you sponsored or participated in? Programs targeting physical health needs
+SHEALTH12	[2012 and 2018-19 wording, if NUMPROG is less than or equal to four] What projects or programs have you sponsored or participated in? Programs targeting physical health needs
+SHEALTH18	[2012 and 2018-19 wording, if NUMPROG is greater than four] What projects or programs have you sponsored or participated in? Programs targeting physical health needs
+PHEALTH06	What are the three most important? Programs targeting physical health needs
+
+
+
+
+
+
+
+
+
+
+whitepct
+blackpct
+latinpct
+hispeth
+asianpct
+amindpct
+othpct
+othrgrp
+ETHNIC1
+ETHNIC2
+ETHNIC3
+immpct
 
 
 
